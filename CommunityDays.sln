@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternalWeb", "InternalWeb\InternalWeb.csproj", "{5E20FC47-E720-4E3B-913B-2936260974E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternalWeb.Tests", "InternalWeb.Tests\InternalWeb.Tests.csproj", "{6A3E088B-004B-41F5-BC25-BA6406720BAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalWeb", "ExternalWeb\ExternalWeb.csproj", "{65B12DCA-179A-41FA-BD5F-C16EBC1152FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalWeb.Tests", "ExternalWeb.Tests\ExternalWeb.Tests.csproj", "{B3102633-86F4-4F3B-BCD3-B1CB340BAB35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{916FF26C-512A-4F5A-887F-065D3AD7936F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A0CE94F-B8D8-4E31-88E6-8479BD52C937}"
+	ProjectSection(SolutionItems) = preProject
+		Settings.StyleCop = Settings.StyleCop
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E20FC47-E720-4E3B-913B-2936260974E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E20FC47-E720-4E3B-913B-2936260974E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E20FC47-E720-4E3B-913B-2936260974E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E20FC47-E720-4E3B-913B-2936260974E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3E088B-004B-41F5-BC25-BA6406720BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3E088B-004B-41F5-BC25-BA6406720BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3E088B-004B-41F5-BC25-BA6406720BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3E088B-004B-41F5-BC25-BA6406720BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65B12DCA-179A-41FA-BD5F-C16EBC1152FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B12DCA-179A-41FA-BD5F-C16EBC1152FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B12DCA-179A-41FA-BD5F-C16EBC1152FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B12DCA-179A-41FA-BD5F-C16EBC1152FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3102633-86F4-4F3B-BCD3-B1CB340BAB35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3102633-86F4-4F3B-BCD3-B1CB340BAB35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3102633-86F4-4F3B-BCD3-B1CB340BAB35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3102633-86F4-4F3B-BCD3-B1CB340BAB35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916FF26C-512A-4F5A-887F-065D3AD7936F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916FF26C-512A-4F5A-887F-065D3AD7936F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916FF26C-512A-4F5A-887F-065D3AD7936F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916FF26C-512A-4F5A-887F-065D3AD7936F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

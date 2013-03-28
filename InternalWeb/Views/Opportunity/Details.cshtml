@@ -1,0 +1,81 @@
+﻿@model Data.Model.Opportunity
+
+@{
+    ViewBag.Title = "Opportunity Details";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<fieldset>
+    <legend>Opportunity</legend>
+    <div class="display-label">    
+    <table>        
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.OpportunityTitle)</td>
+            <td>@Html.DisplayFor(model => model.OpportunityTitle)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.OpportunityDescription)</td>
+            <td>@Html.DisplayFor(model => model.OpportunityDescription)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.OpportunityAdditionalInformation)</td>
+            <td>@Html.DisplayFor(model => model.OpportunityAdditionalInformation)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.OpportunityLocationName)</td>
+            <td>@Html.DisplayFor(model => model.OpportunityLocationName)</td>
+        </tr>
+                <tr>
+            <td>@Html.DisplayNameFor(model => model.OpportunityPostcode)</td>
+            <td>@Html.DisplayFor(model => model.OpportunityPostcode)</td>
+        </tr>          
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.MinNumberofVolunteers)</td>
+            <td>@Html.DisplayFor(model => model.MinNumberofVolunteers)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.MaxNumberofVolunteers)</td>
+            <td>@Html.DisplayFor(model => model.MaxNumberofVolunteers)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.OpportunityDate)</td>
+            <td>@Html.DisplayFor(model => model.OpportunityDate)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.OpportunityCreatedDate)</td>
+            <td>@Html.DisplayFor(model => model.OpportunityCreatedDate)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.OpportunityStatus.OpportunityStatusDescription)</td>
+            <td>@Html.DisplayFor(model => model.OpportunityStatus.OpportunityStatusDescription)</td>
+        </tr>
+        <tr><td colspan="2"><h3>Company Details</h3></td></tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.Company.CompanyName)</td>
+            <td>@Html.DisplayFor(model => model.Company.CompanyName)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.Company.CompanyDetails )</td>
+            <td>@Html.DisplayFor(model => model.Company.CompanyDetails )</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.Company.CompanyContactName)</td>
+            <td>@Html.DisplayFor(model => model.Company.CompanyContactName)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.Company.CompanyContactPhone)</td>
+            <td>@Html.DisplayFor(model => model.Company.CompanyContactPhone)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.Company.CompanyContactEmail)</td>
+            <td>@Html.DisplayFor(model => model.Company.CompanyContactEmail)</td>
+        </tr>
+
+
+    </table>
+</div>
+</fieldset>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

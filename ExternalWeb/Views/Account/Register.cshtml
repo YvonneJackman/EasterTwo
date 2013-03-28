@@ -1,0 +1,72 @@
+﻿@model ExternalWeb.ViewModels.RegisterCompanyViewModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>Create a new account.</h2>
+</hgroup>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    <fieldset>
+        <legend>Registration Form</legend>
+        <ol>
+            <li>
+                @Html.LabelFor(m => m.Register.UserName)
+                @Html.TextBoxFor(m => m.Register.UserName)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Register.Password)
+                @Html.PasswordFor(m => m.Register.Password)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Register.ConfirmPassword)
+                @Html.PasswordFor(m => m.Register.ConfirmPassword)
+            </li>
+            
+            <li>
+                @Html.LabelFor(m => m.Company.CompanyName)
+                @Html.TextBoxFor(m => m.Company.CompanyName)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Company.CharityNumber)
+                @Html.TextBoxFor(m => m.Company.CharityNumber)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Company.CompanyContactName)
+                @Html.TextBoxFor(m => m.Company.CompanyContactName)
+            </li>            
+            <li>
+                @Html.LabelFor(m => m.Company.CompanyContactPhone )
+                @Html.TextBoxFor(m => m.Company.CompanyContactPhone)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Company.CompanyContactEmail )
+                @Html.TextBoxFor(m => m.Company.CompanyContactEmail)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Company.CompanyDetails)
+                @Html.TextBoxFor(m => m.Company.CompanyDetails)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Company.CompanyAddress)
+                @Html.TextBoxFor(m => m.Company.CompanyAddress)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Company.CompanyPostcode )
+                @Html.TextBoxFor(m => m.Company.CompanyPostcode )
+            </li>
+
+
+        </ol>
+        <input type="submit" value="Register" />
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

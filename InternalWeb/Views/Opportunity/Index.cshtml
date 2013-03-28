@@ -1,0 +1,54 @@
+﻿@model IEnumerable<InternalWeb.ViewModels.OpportunityViewModel>
+
+@{
+    ViewBag.Title = "Volunteering Opportunities";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<table class="">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.OpportunityDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OpportunityDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaxNumberofVolunteers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OpportunityLocationName)
+        </th>        
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.OpportunityDate)
+        </td>
+        <td>
+            @Html.ActionLink(item.OpportunityTitle, "Details", new { id=item.OpportunityId })<br />      
+            @Html.DisplayFor(modelItem => item.OpportunityDescription)
+        </td>
+        <td>
+              @{if (item.MinNumberofVolunteers > 0 && item.MinNumberofVolunteers != item.MaxNumberofVolunteers)
+              {
+                @Html.DisplayFor(modelItem => item.MinNumberofVolunteers)<text> - </text>                    
+              }
+            }            
+            @Html.DisplayFor(modelItem => item.MaxNumberofVolunteers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OpportunityLocationName)
+            @{if (item.OpportunityPostcode != string.Empty)
+              {
+               <text>(</text>@Html.DisplayFor(modelItem => item.OpportunityPostcode)<text>)</text>   
+              }
+            }
+        </td>
+    </tr>
+}
+
+</table>

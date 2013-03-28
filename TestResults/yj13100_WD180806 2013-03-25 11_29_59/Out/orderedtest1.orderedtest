@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="orderedtest1" storage="c:\users\yj13100\documents\visual studio 2012\projects\communitydays\internalweb.tests\controllers\orderedtest1.orderedtest" id="cabcdb1c-c5c1-48aa-a1f0-5675369701ae" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="b92f590f-135b-fdcf-4c14-8e9ec4f26dac" name="ExternalWebOpportunityIndex" storage="..\..\externalweb.tests\bin\debug\externalweb.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="b92f590f-135b-fdcf-4c14-8e9ec4f26dac" name="ExternalWebOpportunityIndex" storage="..\..\externalweb.tests\bin\debug\externalweb.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="b92f590f-135b-fdcf-4c14-8e9ec4f26dac" name="ExternalWebOpportunityIndex" storage="..\..\externalweb.tests\bin\debug\externalweb.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="b92f590f-135b-fdcf-4c14-8e9ec4f26dac" name="ExternalWebOpportunityIndex" storage="..\..\externalweb.tests\bin\debug\externalweb.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

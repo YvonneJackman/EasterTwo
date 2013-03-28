@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "External Website Home Page";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+</hgroup>
+
+<div>
+    <img src="~/Images/CommunityDays/SupportingEnergyGreen.jpg" />
+</div>
+<div>
+    <h3>Supporting our local communities</h3>
+    <p>
+    Thanks to our community volunteering project, Community at Heart, each of our 22,000 employees has the opportunity to take a day out of their typical working life to support local community projects. That means that your organisation, charity or group can now ‘borrow’ a team of hands, minds, ideas or skills completely free of charge!
+    </p>
+</div>
+<div>
+    <h3>Many hands make light work..</h3>
+    <img src="~/Images/CommunityDays/CommunityAtHeartVolunteers.jpg"  width="260" height="182"/>
+    <p>You can ask a team of our employees to work with you for a whole day. From crushing boxes to crunching numbers – as long as it makes a difference to what you’re trying to achieve, then we’re willing to help!
+
+The project was launched in April 2010 to support initiatives within the communities in which our employees live and work, giving staff the opportunity to make a difference to things they are passionate about outside of work.
+
+In the first year, around 5,000 days were used to help many different organisations including charities, schools, parish councils and hospitals.
+</p>
+</div>
+<div>
+    <h3>How can we help you?</h3>
+    <p>
+    It’s really easy to request a team of our employees – all you need to do is @Html.ActionLink("register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" }) or @Html.ActionLink("log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" }) to this site
+    <br/><br/>
+    Then create an @Html.ActionLink("opportunity", "Index", "Home") here and tell us what you need help with.
+    <br/><br/>
+    Once you’ve done this, we’ll get back to you as soon as possible.
+    <br/><br/>
+    Our employees are ready and willing to help, so why not submit your request today!
+    </p>
+</div>

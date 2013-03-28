@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{916FF26C-512A-4F5A-887F-065D3AD7936F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Data</RootNamespace>
+    <AssemblyName>Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Migrations\201303131204491_Initial.cs" />
+    <Compile Include="Migrations\201303131204491_Initial.Designer.cs">
+      <DependentUpon>201303131204491_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201303131537454_Initial1.cs" />
+    <Compile Include="Migrations\201303131537454_Initial1.Designer.cs">
+      <DependentUpon>201303131537454_Initial1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201303131543267_Initial2.cs" />
+    <Compile Include="Migrations\201303131543267_Initial2.Designer.cs">
+      <DependentUpon>201303131543267_Initial2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201303131612309_Initial3.cs" />
+    <Compile Include="Migrations\201303131612309_Initial3.Designer.cs">
+      <DependentUpon>201303131612309_Initial3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201303141118594_Initial4.cs" />
+    <Compile Include="Migrations\201303141118594_Initial4.Designer.cs">
+      <DependentUpon>201303141118594_Initial4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201303141121585_Initial5.cs" />
+    <Compile Include="Migrations\201303141121585_Initial5.Designer.cs">
+      <DependentUpon>201303141121585_Initial5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201303141153503_Initial6.cs" />
+    <Compile Include="Migrations\201303141153503_Initial6.Designer.cs">
+      <DependentUpon>201303141153503_Initial6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201303141407427_Initial7.cs" />
+    <Compile Include="Migrations\201303141407427_Initial7.Designer.cs">
+      <DependentUpon>201303141407427_Initial7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201303190902329_CompanyPhone.cs" />
+    <Compile Include="Migrations\201303190902329_CompanyPhone.Designer.cs">
+      <DependentUpon>201303190902329_CompanyPhone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201303191459042_CompanyPhone1.cs" />
+    <Compile Include="Migrations\201303191459042_CompanyPhone1.Designer.cs">
+      <DependentUpon>201303191459042_CompanyPhone1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201303191502268_CompUserFK.cs" />
+    <Compile Include="Migrations\201303191502268_CompUserFK.Designer.cs">
+      <DependentUpon>201303191502268_CompUserFK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations\Context.cs" />
+    <Compile Include="Model\AccountModel\ExternalLogin.cs" />
+    <Compile Include="Model\AccountModel\LocalPasswordModel.cs" />
+    <Compile Include="Model\AccountModel\LoginModel.cs" />
+    <Compile Include="Model\AccountModel\RegisterExternalLoginModel.cs" />
+    <Compile Include="Model\AccountModel\RegisterModel.cs" />
+    <Compile Include="Model\AccountModel\UserProfile.cs" />
+    <Compile Include="Model\Company.cs" />
+    <Compile Include="Model\Employee.cs" />
+    <Compile Include="Model\EmployeeRole.cs" />
+    <Compile Include="Model\Opportunity.cs" />
+    <Compile Include="Model\OpportunityEmployeeMap.cs" />
+    <Compile Include="Model\OpportunityStatus.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201303131204491_Initial.resx">
+      <DependentUpon>201303131204491_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201303131537454_Initial1.resx">
+      <DependentUpon>201303131537454_Initial1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201303131543267_Initial2.resx">
+      <DependentUpon>201303131543267_Initial2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201303131612309_Initial3.resx">
+      <DependentUpon>201303131612309_Initial3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201303141118594_Initial4.resx">
+      <DependentUpon>201303141118594_Initial4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201303141121585_Initial5.resx">
+      <DependentUpon>201303141121585_Initial5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201303141153503_Initial6.resx">
+      <DependentUpon>201303141153503_Initial6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201303141407427_Initial7.resx">
+      <DependentUpon>201303141407427_Initial7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201303190902329_CompanyPhone.resx">
+      <DependentUpon>201303190902329_CompanyPhone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201303191459042_CompanyPhone1.resx">
+      <DependentUpon>201303191459042_CompanyPhone1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201303191502268_CompUserFK.resx">
+      <DependentUpon>201303191502268_CompUserFK.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

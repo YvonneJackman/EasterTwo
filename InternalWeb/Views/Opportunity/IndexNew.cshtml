@@ -1,0 +1,58 @@
+﻿@model IEnumerable<InternalWeb.ViewModels.OpportunityViewModel>
+
+@{
+    ViewBag.Title = "Volunteering Opportunities";
+}
+@using PagedList.Mvc;
+@using PagedList; 
+
+<link href="/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+<h2>@ViewBag.Title</h2>
+
+<table class="">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.OpportunityDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OpportunityDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaxNumberofVolunteers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OpportunityLocationName)
+        </th>        
+    </tr>
+
+@foreach(var item in ViewBag.OnePageOfOpps)
+{
+    <tr>
+        <td>
+            @item.OpportunityDate
+        </td>
+        <td>
+
+            @item.OpportunityDescription
+        </td>
+        <td>
+              @{if (item.MinNumberofVolunteers > 0)
+              {
+                @item.MinNumberofVolunteers<text> - </text>                    
+              }
+            }            
+            @item.MaxNumberofVolunteers
+        </td>
+        <td>
+            @item.OpportunityLocationName
+            @{if (item.OpportunityPostcode != string.Empty)
+              {
+               <text>(</text>@item.OpportunityPostcode<text>)</text>   
+              }
+            }
+        </td>
+    </tr>
+}
+</table>
+@Html.PagedListPager( (IPagedList)ViewBag.OnePageOfOpps, page => Url.Action("Index", new { page }) )

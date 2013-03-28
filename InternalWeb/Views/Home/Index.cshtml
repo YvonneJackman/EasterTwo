@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Internal Website Home Page";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+</hgroup>
+<div>
+        <img src="~/Images/CommunityDays/Homepage_montage-V1.jpg" />
+</div>
+<div>
+    <h3>COMMUNITY AT HEART IS HERE TO STAY!</h3>
+    <table>
+        <tr><td>
+            We had great success with Community at Heart in 2011/12 so, once again, we are offering all SSE colleagues the opportunity to spend one working day each year to support a community volunteering project that is close to their heart …  only this time, we want twice as many people to get involved as last year!
+            <br /><br />
+            Here you will find all the information you will need about the volunteering scheme, but if you can’t find what you’re looking for, feel free to get in touch with our Community Volunteering Manager, @Html.ActionLink("Cindy Cummings", "Contact", "Home").
+            <br /><br />
+            Looking for ideas?  Check out our @Html.ActionLink("Volunteering Opportunities", "Index", "Opportunity") to get some inspiration - you can find details of all the people, charities and projects that have actively come to us asking for some help.
+            <br /><br />
+            Got your own idea for a project? Please get in touch with our Community Volunteering Manager, @Html.ActionLink("Cindy Cummings", "Contact", "Home").
+        </td></tr>    
+    </table>
+</div>
