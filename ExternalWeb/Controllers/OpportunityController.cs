@@ -80,7 +80,7 @@
 
                 opportunity.OpportunityCreatedDate = System.DateTime.Now;
 
-                this.db.Opportunity.Add(opportunity);
+                this.db.Opportunity.Add(opportunity);                
                 this.db.SaveChanges();
                 return this.RedirectToAction("Index", "OpportunityController");
             }

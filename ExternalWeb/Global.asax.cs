@@ -25,7 +25,7 @@
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterAuth();
 
-            WebSecurity.InitializeDatabaseConnection("DefaultConnection", "UserProfile", "UserId", "UserName", autoCreateTables: true);
+            WebSecurity.InitializeDatabaseConnection("CommunityDays", "UserProfile", "UserId", "UserName", autoCreateTables: true);
         }
     }
 }

@@ -10,8 +10,7 @@
 
     public class OpportunityEmployeeMap
     {
-        [Key]
-        
+        [Key]       
         public int OpportunityEmployeeMapId { get; set; }
        
         [ForeignKey("Opportunity"), Column(Order = 0)]

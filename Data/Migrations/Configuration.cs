@@ -31,8 +31,8 @@
              ////      new Person { FullName = "Rowan Miller" }
              ////    );
              ////
-             
-             WebSecurity.InitializeDatabaseConnection("DefaultConnection", "UserProfile", "UserId", "UserName", autoCreateTables: true);
+
+             WebSecurity.InitializeDatabaseConnection("CommunityDays", "UserProfile", "UserId", "UserName", autoCreateTables: true);
          
              this.SetupStaticLookupData(context);
              this.SetupTestData(context);

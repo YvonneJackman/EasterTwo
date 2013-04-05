@@ -18,3 +18,22 @@ C:\Users\yj13100\Documents\Visual Studio 2012\Projects\CommunityDays\Data\obj\De
 C:\Users\yj13100\Documents\Visual Studio 2012\Projects\CommunityDays\Data\obj\Debug\Data.Migrations.CompanyPhone1.resources
 C:\Users\yj13100\Documents\Visual Studio 2012\Projects\CommunityDays\Data\obj\Debug\Data.Migrations.CompUserFK.resources
 C:\Users\yj13100\Documents\Visual Studio 2012\Projects\CommunityDays\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Github\EasterTwo\Data\bin\Debug\Data.dll.config
+C:\Github\EasterTwo\Data\bin\Debug\Data.dll
+C:\Github\EasterTwo\Data\bin\Debug\Data.pdb
+C:\Github\EasterTwo\Data\bin\Debug\EntityFramework.dll
+C:\Github\EasterTwo\Data\bin\Debug\EntityFramework.xml
+C:\Github\EasterTwo\Data\obj\Debug\Data.Migrations.Initial.resources
+C:\Github\EasterTwo\Data\obj\Debug\Data.Migrations.Initial1.resources
+C:\Github\EasterTwo\Data\obj\Debug\Data.Migrations.Initial2.resources
+C:\Github\EasterTwo\Data\obj\Debug\Data.Migrations.Initial3.resources
+C:\Github\EasterTwo\Data\obj\Debug\Data.Migrations.Initial4.resources
+C:\Github\EasterTwo\Data\obj\Debug\Data.Migrations.Initial5.resources
+C:\Github\EasterTwo\Data\obj\Debug\Data.Migrations.Initial6.resources
+C:\Github\EasterTwo\Data\obj\Debug\Data.Migrations.Initial7.resources
+C:\Github\EasterTwo\Data\obj\Debug\Data.Migrations.CompanyPhone.resources
+C:\Github\EasterTwo\Data\obj\Debug\Data.Migrations.CompanyPhone1.resources
+C:\Github\EasterTwo\Data\obj\Debug\Data.Migrations.CompUserFK.resources
+C:\Github\EasterTwo\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+C:\Github\EasterTwo\Data\obj\Debug\Data.dll
+C:\Github\EasterTwo\Data\obj\Debug\Data.pdb

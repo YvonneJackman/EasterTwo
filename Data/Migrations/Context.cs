@@ -36,8 +36,6 @@
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Conventions.Remove<System.Data.Entity.ModelConfiguration.Conventions.PluralizingTableNameConvention>();
-
-           // modelBuilder.Entity<Item>().ToTable("Items");
         }
     }
 }

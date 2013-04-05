@@ -34,3 +34,39 @@ C:\Users\yj13100\Documents\Visual Studio 2012\Projects\CommunityDays\InternalWeb
 C:\Users\yj13100\Documents\Visual Studio 2012\Projects\CommunityDays\InternalWeb.Tests\obj\Debug\InternalWeb.Tests.csprojResolveAssemblyReference.cache
 C:\Users\yj13100\Documents\Visual Studio 2012\Projects\CommunityDays\InternalWeb.Tests\obj\Debug\InternalWeb.Tests.dll
 C:\Users\yj13100\Documents\Visual Studio 2012\Projects\CommunityDays\InternalWeb.Tests\obj\Debug\InternalWeb.Tests.pdb
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\InternalWeb.Tests.dll.config
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\InternalWeb.Tests.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\InternalWeb.Tests.pdb
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\Data.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\InternalWeb.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Web.Http.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Web.Razor.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\EntityFramework.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\WebGrease.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\Data.pdb
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\InternalWeb.pdb
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Web.Http.xml
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Web.Razor.xml
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Github\EasterTwo\InternalWeb.Tests\bin\Debug\EntityFramework.xml
+C:\Github\EasterTwo\InternalWeb.Tests\obj\Debug\InternalWeb.Tests.csprojResolveAssemblyReference.cache
+C:\Github\EasterTwo\InternalWeb.Tests\obj\Debug\InternalWeb.Tests.dll
+C:\Github\EasterTwo\InternalWeb.Tests\obj\Debug\InternalWeb.Tests.pdb
